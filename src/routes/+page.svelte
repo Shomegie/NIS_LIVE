@@ -264,8 +264,8 @@
 </section>
 
 <div class="map bg-blue-100 h-96 border border-stone-300 mb-8 w-5/6 mx-auto">
-    <!-- <iframe title="loc" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15902.512103228504!2d6.9652381!3d4.8337655!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x73e01499b99781a9!2sNithalos%20Montessori%20School!5e0!3m2!1sen!2sng!4v1659693295841!5m2!1sen!2sng" 
-    class="h-full w-full" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+    <iframe title="loc" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15902.512103228504!2d6.9652381!3d4.8337655!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x73e01499b99781a9!2sNithalos%20Montessori%20School!5e0!3m2!1sen!2sng!4v1659693295841!5m2!1sen!2sng" 
+    class="h-full w-full" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 
 <section>
