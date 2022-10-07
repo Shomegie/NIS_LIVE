@@ -10,7 +10,7 @@
                 <p class="underline">Get the latest update and NIS's response to COVID-19</p>
             </div>
             <div class="h-12 flex justify-center items-center px-8 relative">
-                <div class="absolute left-0 text-xs font-bold tracking-tighter sm:pl-7 xl:text-base text-indigo-50 ">Nithalos International School</div>
+
                 
                 <ul class="hidden sm:flex text-gray-500 space-x-6">
                     <li class={li}>Home</li>
@@ -44,7 +44,7 @@
 <style>
     .texture{
         background-color: #1a0369;
-        background-color: #1a0369;
+        background-color: #6B6FFD;
 background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%233b58d5' fill-opacity='0.14'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
     }
 </style>

@@ -8,104 +8,35 @@
 
 
 <section id="carousel">
-    <div class="texture">
+    <div class="texture relative">
+
+
     <div class="h-[560px] bg-indigo-900 bg-opacity-0 w-full relative">
 
         <Splide class="w-full"  options={ { rewind: true } } aria-label="My Favorite Images">
             <SplideSlide>
                 <div class="h-[480px] w-full bg-teal-500 relative">
                     <img src="/jpg/slide_01.jpg" alt="caro_1" class="object-cover h-full w-full ">
-                    <div class="absolute top-0 bg-blue-900 bg-opacity-20 h-full w-full flex">
-                        <div class="w-full xl:w-1/2"> 
-                            <div class="w-full xl:w-4/5 h-full p-8 xl:pl-20 bg-white bg-opacity-30 rounded relative rounded-ful">
-                                <img class = "image h-44 opacity-80  " src="/png/NIS_6.png" alt="temp logo">
-                                <div class="text-yellow-700 b bg-opacity-40">
-                                    <div class="bg-white w-fit bg-opacity-70 px-1">Nithalos International School</div> 
-                                    <div class="bg-white w-fit bg-opacity-70 px-1">Nursery, Primary & Secondary School</div>
-                                    <div class="bg-white w-fit bg-opacity-70 px-1">99 Obiwali Rd, Rumuigbo 500272, Port Harcourt</div>
-                                </div>
-                            </div>
-                        </div>
+                    
+                </div>
+            </SplideSlide>
 
-                    </div>
-                </div>
-            </SplideSlide>
-            <SplideSlide>
-                <div class="h-[480px] w-full bg-teal-500 relative">
-                    <img src="/jpg/slide_02.jpg" alt="caro_1" class="object-cover h-full w-full ">
-                    <div class="absolute top-0 bg-blue-900 bg-opacity-20 h-full w-full flex">
-                        <div class="w-full xl:w-1/2"> 
-                            <div class="w-full xl:w-4/5 h-full p-8  bg-white bg-opacity-30 rounded relative rounded-ful">
-                                <img class = "image h-44 opacity-80  " src="/png/NIS_6.png" alt="temp logo">
-                                <div class="text-yellow-700 b bg-opacity-40">
-                                    <div class="bg-white w-fit bg-opacity-70 px-1">Nithalos International School</div> 
-                                    <div class="bg-white w-fit bg-opacity-70 px-1">Nursery, Primary & Secondary School</div>
-                                    <div class="bg-white w-fit bg-opacity-70 px-1">99 Obiwali Rd, Rumuigbo 500272, Port Harcourt</div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </SplideSlide>
-            <SplideSlide>
-                <div class="h-[480px] w-full bg-teal-500 relative">
-                    <img src="/jpg/slide_03.jpg" alt="caro_1" class="object-cover h-full w-full ">
-                    <div class="absolute top-0 bg-blue-900 bg-opacity-20 h-full w-full flex">
-                        <div class="w-full xl:w-1/2"> 
-                            <div class="w-full xl:w-4/5 h-full p-8  bg-white bg-opacity-30 rounded relative rounded-ful">
-                                <img class = "image h-44 opacity-80  " src="/png/NIS_6.png" alt="temp logo">
-                                <div class="text-yellow-700 b bg-opacity-40">
-                                    <div class="bg-white w-fit bg-opacity-70 px-1">Nithalos International School</div> 
-                                    <div class="bg-white w-fit bg-opacity-70 px-1">Nursery, Primary & Secondary School</div>
-                                    <div class="bg-white w-fit bg-opacity-70 px-1">99 Obiwali Rd, Rumuigbo 500272, Port Harcourt</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </SplideSlide>
-            <SplideSlide>
-                <div class="h-[480px] w-full bg-teal-500 relative">
-                    <img src="/jpg/slide_04.jpg" alt="caro_1" class="object-cover h-full w-full ">
-                    <div class="absolute top-0 bg-blue-900 bg-opacity-20 h-full w-full flex">
-                        <div class="w-full xl:w-1/2"> 
-                            <div class="w-full xl:w-4/5 h-full p-8  bg-white bg-opacity-30 rounded relative rounded-ful">
-                                <img class = "image h-44 opacity-80  " src="/png/NIS_6.png" alt="temp logo">
-                                <div class="text-yellow-700 b bg-opacity-40">
-                                    <div class="bg-white w-fit bg-opacity-70 px-1">Nithalos International School</div> 
-                                    <div class="bg-white w-fit bg-opacity-70 px-1">Nursery, Primary & Secondary School</div>
-                                    <div class="bg-white w-fit bg-opacity-70 px-1">99 Obiwali Rd, Rumuigbo 500272, Port Harcourt</div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </SplideSlide>
-            <SplideSlide>
-                <div class="h-[480px] w-full bg-teal-500 relative">
-                    <img src="/jpg/slide_05.jpg" alt="caro_1" class="object-cover h-full w-full ">
-                    <div class="absolute top-0 bg-blue-900 bg-opacity-20 h-full w-full flex">
-                        <div class="w-full xl:w-1/2"> 
-                            <div class="w-full xl:w-4/5 h-full p-8  bg-white bg-opacity-30 rounded relative rounded-ful">
-                                <img class = "image h-44 opacity-80  " src="/png/NIS_6.png" alt="temp logo">
-                                <div class="text-yellow-700 b bg-opacity-40">
-                                    <div class="bg-white w-fit bg-opacity-70 px-1">Nithalos International School</div> 
-                                    <div class="bg-white w-fit bg-opacity-70 px-1">Nursery, Primary & Secondary School</div>
-                                    <div class="bg-white w-fit bg-opacity-70 px-1">99 Obiwali Rd, Rumuigbo 500272, Port Harcourt</div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </SplideSlide>
         </Splide>
-        <div class="absolute hidden sm:flex bottom-8 right-0 px-2 z-50">
-            <div class="h-32 w-40 bg-zinc-300"></div>
-            <div class="h-32 w-40 bg-stone-600"></div>
-            <div class="h-32 w-40 bg-black"></div>
+
+        <div class="absolute hidden sm:flex sm:flex-col bottom-8 right-0 px-2 z-50">
+            <div class="flex flex-col w-full">
+                <img class = "image h-44 opacity-90 w-fit mx-auto" src="/png/NIS_6.png" alt="nithalos international school logo">
+                <div class="text-yellow-700 b bg-opacity-40 mb-4">
+                    <div class="bg-white w-fit mx-auto bg-opacity-70 px-1">Nithalos International School</div> 
+                    <div class="bg-white w-fit mx-auto bg-opacity-70 px-1">Nursery, Primary & Secondary School</div>
+                    <div class="bg-white w-fit mx-auto bg-opacity-70 px-1">78 Obiwali Rd, Rumuigbo 500272, Port Harcourt</div>
+                </div>
+            </div>
+            <div class="flex">
+                <div class="h-32 w-40 bg-zinc-300"></div>
+                <div class="h-32 w-40 bg-stone-600"></div>
+                <div class="h-32 w-40 bg-black"></div>
+            </div>
         </div>
     </div>
     <div class="flex w-full">
