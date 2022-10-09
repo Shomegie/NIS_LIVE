@@ -27,15 +27,14 @@
             <div class="flex flex-col w-full">
                 <img class = "image h-44 opacity-90 w-fit mx-auto" src="/png/NIS_6.png" alt="nithalos international school logo">
                 <div class="text-yellow-700 b bg-opacity-40 mb-4">
-                    <div class="bg-white w-fit mx-auto bg-opacity-80 px-1">Nithalos International School</div> 
-                    <div class="bg-white w-fit mx-auto bg-opacity-70 px-1">Nursery, Primary & Secondary School</div>
-                    <div class="bg-white w-fit mx-auto bg-opacity-80 px-1">78 Obiwali Rd, Rumuigbo 500272, Port Harcourt</div>
+                    <div class="w-fit mx-auto font-f1 text-blue-900 text-3xl bg-opacity-80 px-1">Nithalos International School</div> 
+                    <div class="w-fit mx-auto text-blue-900 font-f1 text-lg px-1">Nursery, Primary & Secondary School</div>
+                    <div class="w-fit mx-auto  text-blue-900 font-f1 text-xs px-1">78 Obiwali Rd, Rumuigbo 500272, Port Harcourt</div>
                 </div>
             </div>
             <div class="flex">
-                <div class="h-32 w-40"></div>
-                <div class="h-32 w-40"></div>
-                <div class="h-32 w-40"></div>
+                <div class="h-28 w-96"></div>
+                <div class="h-16 w-16"></div>
             </div>
         </div>
     </div>
@@ -47,53 +46,64 @@
 </div>
 </section>
 
-<section id="academics">
-    <div class="w-full px-8 py-10 mt-6 space-x-6 xl:w-4/6 mx-auto flex">
+<section class="Academics">
+    <div class="w-full px-2 sm:px-8 pt-10 pb-6 sm:pb-10  mt-0 space-x-0 sm:space-x-6 xl:w-4/6 mx-auto flex">
 
-        <div class="h-96 rounded w-1/3 bg-blue-50 mt-8 relative shadow-lg">
+        <div class="h-96 rounded w-1/3 bg-white mt-8 relative shadow-lg">
             <div class="flex py-4 px-8 space-x-1 border-t-4 border-yellow-400">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 stroke-current text-yellow-500" fill="none"  viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
                 </svg>
                 <p class="font-extrabold text-lg font-serif text-blue-900">Nursery</p>
             </div>
-            <div class="px-6 text-xs text-stone-700">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima a dolor consectetur odit cum.</div>
+            <div class="px-4 sm:px-6 text-xs text-stone-700">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima a dolor consectetur odit cum.</div>
             <!-- <div class="px-6 absolute bottom-4 font-bold font-serif text-xs text-blue-900 cursor-pointer hover:text-gray-700">Nursery -></div> -->
-            <div class="bg-sky-100 w-full h-48 border-b-0 border-yellow-300 absolute bottom-0 ">
+            <div class="bg-sky-100 w-full h-44 sm:h-48 border-b-0 border-yellow-300 absolute bottom-0 ">
+                <div class="px-8 flex justify-end pb-6 -mt-11">
+                    <div class=" bg-white w-fit px-2 py-0 text-yellow-600 text-xs font-f1 rounded border-2 border-blue-800 border-opacity-10 cursor-pointer hover:bg-yellow-400 hover:text-white">Enroll Today</div>
+    
+                </div>
                 <img src="/jpg/academics_01.jpg" alt="caro_1" class="object-cover h-full w-full ">
-                <div class="absolute top-0 bg-blue-900 bg-opacity-20 h-full w-full flex cursor-pointer hover:bg-opacity-0 transition duration-150"></div>
+                <div class="absolute top-0 hidden sm:flex bg-blue-900 bg-opacity-20 h-full w-full cursor-pointer hover:bg-opacity-0 transition duration-150"></div>
     
             </div>
 
         </div>
 
-        <div class="h-[450px] w-1/3 bg-blue-100 relative shadow-xl">
-            <div class="flex py-4 px-6 space-x-1 border-t-4 border-red-500">
+        <div class="h-[450px] w-1/3 bg-blue-50 relative shadow-xl">
+            <div class="flex py-4 px-4 space-x-1 border-t-4 border-red-500">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-red-500" viewBox="0 0 20 20" fill="currentColor">
                     <path fill-rule="evenodd" d="M10.496 2.132a1 1 0 00-.992 0l-7 4A1 1 0 003 8v7a1 1 0 100 2h14a1 1 0 100-2V8a1 1 0 00.496-1.868l-7-4zM6 9a1 1 0 00-1 1v3a1 1 0 102 0v-3a1 1 0 00-1-1zm3 1a1 1 0 012 0v3a1 1 0 11-2 0v-3zm5-1a1 1 0 00-1 1v3a1 1 0 102 0v-3a1 1 0 00-1-1z" clip-rule="evenodd" />
                   </svg>
                 <p class="font-extrabold text-lg font-serif text-blue-900">Primary</p>
             </div>
-            <div class="px-6 text-xs text-stone-700">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima a dolor consectetur odit cum.</div>
-            <div class="bg-sky-100 w-full h-56 border-b-0 border-yellow-300 absolute bottom-0 ">
+            <div class="px-4 text-xs mt-8 text-stone-700 font font-f1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima a dolor consectetur odit cum.</div>
+            <div class="bg-sky-100 w-full h-52 sm:h-56 border-b-0 border-yellow-300 absolute bottom-0 ">
+                <div class="px-6 justify-end pb-6 -mt-11 flex">
+                    <div class=" bg-white w-fit px-2 py-0 text-red-700 text-xs font-f1 rounded border-2 border-blue-800 border-opacity-10 cursor-pointer hover:bg-red-500 hover:text-white">Enroll Today</div>
+                </div>
                 <img src="/jpg/academics_02.jpg" alt="caro_1" class="object-cover h-full w-full ">
-                <div class="absolute top-0 bg-blue-900 bg-opacity-20 h-full w-full flex cursor-pointer hover:bg-opacity-0 transition duration-150"></div>
+                <div class="absolute top-0 hidden sm:flex bg-blue-900 bg-opacity-20 h-full w-full  cursor-pointer hover:bg-opacity-0 transition duration-150"></div>
             </div>
             
 
         </div>
-        <div class="h-96 rounded w-1/3 bg-blue-50 mt-8 shadow-lg relative">
+        <div class="h-96 rounded w-1/3 bg-white mt-8 shadow-lg relative">
             <div class="flex py-4 px-6 space-x-1 border-t-4 border-indigo-900">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 fill-current text-indigo-700" viewBox="0 0 20 20" >
                     <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z" />
                 </svg>
                 <p class="font-extrabold text-lg font-serif text-blue-900">Secondary</p>
             </div>
-            <div class="px-6 text-xs text-stone-700">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima a dolor consectetur odit cum.</div>
+            <div class=" px-4 sm:px-6 text-xs text-stone-700">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima a dolor consectetur odit cum.</div>
             <!-- <div class="px-6 absolute bottom-4 font-bold font-serif text-xs text-blue-900 cursor-pointer hover:text-gray-700">Nursery -></div> -->
-            <div class="bg-sky-100 w-full h-48 border-b-0 border-yellow-300 absolute bottom-0 ">
+            <div class="bg-sky-100 w-full h-44 sm:h-48 border-b-0 border-yellow-300 absolute bottom-0 ">
+                <div class="px-8 flex justify-end pb-6 -mt-11">
+                    <div class=" bg-white w-fit px-2 py-0 text-blue-900 text-xs font-f1 rounded border-2 border-blue-800 border-opacity-10 cursor-pointer hover:bg-blue-800 hover:text-white">Enroll Today</div>
+    
+                </div>
                 <img src="/jpg/academics_03.jpg" alt="caro_1" class="object-cover h-full w-full ">
-                <div class="absolute top-0 bg-blue-900 bg-opacity-20 h-full w-full flex cursor-pointer hover:bg-opacity-0 transition duration-150"></div>
+                <div class="absolute top-0 hidden sm:flex bg-blue-900 bg-opacity-20 h-full w-full cursor-pointer hover:bg-opacity-0 transition duration-150"></div>
     
             </div>
         </div>
@@ -188,9 +198,9 @@
     <div class="w-full h-32 bg-stone-800"></div>
 </section>
 
-<div class="map bg-blue-100 h-96 border border-stone-300 mb-8 w-5/6 mx-auto">
-    <!-- <iframe title="loc" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15902.512103228504!2d6.9652381!3d4.8337655!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x73e01499b99781a9!2sNithalos%20Montessori%20School!5e0!3m2!1sen!2sng!4v1659693295841!5m2!1sen!2sng" 
-    class="h-full w-full" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+<div class="map bg-blue-100 h-96 sm:border border-stone-300 mb-8 w-full sm:w-5/6 mx-auto">
+    <iframe title="loc" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15902.512103228504!2d6.9652381!3d4.8337655!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x73e01499b99781a9!2sNithalos%20Montessori%20School!5e0!3m2!1sen!2sng!4v1659693295841!5m2!1sen!2sng" 
+    class="h-full w-full" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 
 <section>
@@ -199,22 +209,18 @@
 
 
 <style>
-    .texture{
+.texture{
         background-color: #1a0369;
         background-color: #6B6FFD;
 background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%233b58d5' fill-opacity='0.14'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
     }
+.Academics {
+        background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%233d81f6' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+}
 
-    .Academic{
-        background-color: #fff;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%232fb5cc' fill-opacity='0.07'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-    }
-
-    .Academics {
-        background-color: #eff6ff;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23ddc921' fill-opacity='0.39'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-    }
-
-
+/* .font-f1{
+    font-family: 'Chakra Petch', sans-serif;
+} */
 
 </style>

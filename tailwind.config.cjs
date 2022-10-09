@@ -2,7 +2,11 @@ const config = {
   content: ["./src/**/*.{html,js,svelte,ts}"],
 
   theme: {
-    extend: {}
+    extend: {
+      fontFamily:{
+        f1:['Chakra Petch', 'sans-serif']
+      }
+    }
   },
 
   plugins: []
