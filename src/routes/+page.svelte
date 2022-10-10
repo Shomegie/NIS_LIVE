@@ -60,7 +60,7 @@
             <!-- <div class="px-6 absolute bottom-4 font-bold font-serif text-xs text-blue-900 cursor-pointer hover:text-gray-700">Nursery -></div> -->
             <div class="bg-sky-100 w-full h-44 sm:h-48 border-b-0 border-yellow-300 absolute bottom-0 ">
                 <div class="px-8 flex justify-end pb-6 -mt-11">
-                    <div class=" bg-white w-fit px-2 py-0 text-yellow-600 text-xs font-f1 rounded border-2 border-blue-800 border-opacity-10 cursor-pointer hover:bg-yellow-400 hover:text-white">Enroll Today</div>
+                    <div class=" bg-white w-fit px-2 py-0 text-yellow-600 text-xs font-f1 rounded border-2 border-blue-800 border-opacity-10 cursor-pointer hover:bg-yellow-400 hover:text-white">Enroll</div>
     
                 </div>
                 <img src="/jpg/academics_01.jpg" alt="caro_1" class="object-cover h-full w-full ">
@@ -80,7 +80,7 @@
             <div class="px-4 text-xs mt-8 text-stone-700 font font-f1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima a dolor consectetur odit cum.</div>
             <div class="bg-sky-100 w-full h-52 sm:h-56 border-b-0 border-yellow-300 absolute bottom-0 ">
                 <div class="px-6 justify-end pb-6 -mt-11 flex">
-                    <div class=" bg-white w-fit px-2 py-0 text-red-700 text-xs font-f1 rounded border-2 border-blue-800 border-opacity-10 cursor-pointer hover:bg-red-500 hover:text-white">Enroll Today</div>
+                    <div class=" bg-white w-fit px-2 py-0 text-red-700 text-xs font-f1 rounded border-2 border-blue-800 border-opacity-10 cursor-pointer hover:bg-red-500 hover:text-white">Enroll</div>
                 </div>
                 <img src="/jpg/academics_02.jpg" alt="caro_1" class="object-cover h-full w-full ">
                 <div class="absolute top-0 hidden sm:flex bg-blue-900 bg-opacity-20 h-full w-full  cursor-pointer hover:bg-opacity-0 transition duration-150"></div>
@@ -99,7 +99,7 @@
             <!-- <div class="px-6 absolute bottom-4 font-bold font-serif text-xs text-blue-900 cursor-pointer hover:text-gray-700">Nursery -></div> -->
             <div class="bg-sky-100 w-full h-44 sm:h-48 border-b-0 border-yellow-300 absolute bottom-0 ">
                 <div class="px-8 flex justify-end pb-6 -mt-11">
-                    <div class=" bg-white w-fit px-2 py-0 text-blue-900 text-xs font-f1 rounded border-2 border-blue-800 border-opacity-10 cursor-pointer hover:bg-blue-800 hover:text-white">Enroll Today</div>
+                    <div class=" bg-white w-fit px-2 py-0 text-blue-900 text-xs font-f1 rounded border-2 border-blue-800 border-opacity-10 cursor-pointer hover:bg-blue-800 hover:text-white">Enroll</div>
     
                 </div>
                 <img src="/jpg/academics_03.jpg" alt="caro_1" class="object-cover h-full w-full ">
@@ -199,8 +199,9 @@
 </section>
 
 <div class="map bg-blue-100 h-96 sm:border border-stone-300 mb-8 w-full sm:w-5/6 mx-auto">
-    <iframe title="loc" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15902.512103228504!2d6.9652381!3d4.8337655!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x73e01499b99781a9!2sNithalos%20Montessori%20School!5e0!3m2!1sen!2sng!4v1659693295841!5m2!1sen!2sng" 
+    <iframe title="location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4265.303503738632!2d6.979266414954422!3d4.867648896465573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1069d107f5c1387f%3A0x25bc31e3687bcdca!2sNithalos%20International%20School!5e1!3m2!1sen!2sng!4v1665401071426!5m2!1sen!2sng" 
     class="h-full w-full" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <!-- <iframe title="nithalos international school location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8530.815918564838!2d6.984892224927711!3d4.851144635909783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1069ce193f11830b%3A0x10fda935b2bd552b!2sRumugbo%20500102%2C%20Port%20Harcourt!5e1!3m2!1sen!2sng!4v1665400527273!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
 </div>
 
 <section>
