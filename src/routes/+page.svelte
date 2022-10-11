@@ -49,8 +49,8 @@
 <section class="Academics">
     <div class="w-full px-2 sm:px-8 pt-10 pb-6 sm:pb-10  mt-0 space-x-0 sm:space-x-6 xl:w-4/6 mx-auto flex">
 
-        <div class="h-96 rounded w-1/3 bg-white mt-8 relative shadow-lg">
-            <div class="flex py-4 px-8 space-x-1 border-t-4 border-yellow-400">
+        <div class="h-96 rounded bg-white mt-8 relative shadow-lg " style="width:32%">
+            <div class="flex pt-4 pb-0 sm:pb-4 px-5 space-x-1 border-t-4 border-yellow-400">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 stroke-current text-yellow-500" fill="none"  viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
                 </svg>
@@ -70,14 +70,17 @@
 
         </div>
 
-        <div class="h-[450px] w-1/3 bg-blue-50 relative shadow-xl">
+        <div class="h-[450px] bg-blue-50 relative shadow-xl" style="width:36%">
             <div class="flex py-4 px-4 space-x-1 border-t-4 border-red-500">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-red-500" viewBox="0 0 20 20" fill="currentColor">
-                    <path fill-rule="evenodd" d="M10.496 2.132a1 1 0 00-.992 0l-7 4A1 1 0 003 8v7a1 1 0 100 2h14a1 1 0 100-2V8a1 1 0 00.496-1.868l-7-4zM6 9a1 1 0 00-1 1v3a1 1 0 102 0v-3a1 1 0 00-1-1zm3 1a1 1 0 012 0v3a1 1 0 11-2 0v-3zm5-1a1 1 0 00-1 1v3a1 1 0 102 0v-3a1 1 0 00-1-1z" clip-rule="evenodd" />
-                  </svg>
-                <p class="font-extrabold text-lg font-serif text-blue-900">Primary</p>
+                <div class="w-fit mx-auto flex space-x-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-red-500" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M10.496 2.132a1 1 0 00-.992 0l-7 4A1 1 0 003 8v7a1 1 0 100 2h14a1 1 0 100-2V8a1 1 0 00.496-1.868l-7-4zM6 9a1 1 0 00-1 1v3a1 1 0 102 0v-3a1 1 0 00-1-1zm3 1a1 1 0 012 0v3a1 1 0 11-2 0v-3zm5-1a1 1 0 00-1 1v3a1 1 0 102 0v-3a1 1 0 00-1-1z" clip-rule="evenodd" />
+                      </svg>
+                    <p class="font-extrabold text-lg md:text-xl font-serif text-blue-900">Primary</p>
+                </div>
+
             </div>
-            <div class="px-4 text-xs mt-8 text-stone-700 font font-f1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima a dolor consectetur odit cum.</div>
+            <div class="px-4 text-xs mt-4 sm:mt-8 text-stone-700 font font-f1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima a dolor consectetur odit cum.</div>
             <div class="bg-sky-100 w-full h-52 sm:h-56 border-b-0 border-yellow-300 absolute bottom-0 ">
                 <div class="px-6 justify-end pb-6 -mt-11 flex">
                     <div class=" bg-white w-fit px-2 py-0 text-red-700 text-xs font-f1 rounded border-2 border-blue-800 border-opacity-10 cursor-pointer hover:bg-red-500 hover:text-white">Enroll</div>
@@ -88,12 +91,12 @@
             
 
         </div>
-        <div class="h-96 rounded w-1/3 bg-white mt-8 shadow-lg relative">
-            <div class="flex py-4 px-6 space-x-1 border-t-4 border-indigo-900">
+        <div class="h-96 rounded bg-white mt-8 shadow-lg relative" style="width:32%">
+            <div class="flex pt-4 pb-0 sm:pb-4 px-4 space-x-1 border-t-4 border-indigo-900">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 fill-current text-indigo-700" viewBox="0 0 20 20" >
                     <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z" />
                 </svg>
-                <p class="font-extrabold text-lg font-serif text-blue-900">Secondary</p>
+                <p class="font-extrabold text-base sm:text-lg font-serif text-blue-900">Secondary</p>
             </div>
             <div class=" px-4 sm:px-6 text-xs text-stone-700">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima a dolor consectetur odit cum.</div>
             <!-- <div class="px-6 absolute bottom-4 font-bold font-serif text-xs text-blue-900 cursor-pointer hover:text-gray-700">Nursery -></div> -->
