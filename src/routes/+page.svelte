@@ -23,10 +23,10 @@
 
         </Splide>
         <div class="absolute left-0 top-0 w-full h-[480px] pane">
-            <div class="relative w-full h-full ml-8 xl:ml-32">
+            <div class="relative w-full h-full ml-8 xl:ml-44">
                 <div class="flex h-full items-center w-fit absolute bottom-0 ">
-                    <img class = "image h-32 xl:h-40 opacity-90 w-fit mx-auto" src="/png/NIS_6.png" alt="nithalos international school logo">
-                    <div class="text-blue-100 b bg-opacity-40 mb-4">
+                    <img class = "image h-32 xl:h-40 opacity-80 w-fit mx-auto" src="/png/NIS_6.png" alt="nithalos international school logo">
+                    <div class="text-blue-100 b bg-opacity-40 mb-4 pt-8">
                         <div class="w-fit mx-auto font-f1  text-3xl bg-opacity-80 px-1">Nithalos International School</div> 
                         <div class="w-fit  font-f1 text-lg px-1">Nursery, Primary & Secondary School</div>
                         <div class="w-fit  font-f1 text-sm px-1">78 Obiwali Rd, Rumuigbo 500272, Port Harcourt</div>
@@ -61,7 +61,7 @@
 <section class="Academics">
     <div class="w-full px-2 sm:px-8 pt-10 pb-6 sm:pb-10  mt-0 space-x-0 sm:space-x-6 xl:w-4/6 mx-auto flex">
 
-        <div class="h-96 rounded bg-white mt-8 relative shadow-lg " style="width:32%">
+        <div class="h-96 rounded bg-blue-50 mt-8 relative shadow-lg " style="width:32%">
             <div class="flex pt-4 pb-0 sm:pb-4 px-5 space-x-1 border-t-4 border-yellow-400">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 stroke-current text-yellow-500" fill="none"  viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
@@ -72,8 +72,7 @@
             <!-- <div class="px-6 absolute bottom-4 font-bold font-serif text-xs text-blue-900 cursor-pointer hover:text-gray-700">Nursery -></div> -->
             <div class="bg-sky-100 w-full h-44 sm:h-48 border-b-0 border-yellow-300 absolute bottom-0 ">
                 <div class="px-8 flex justify-end pb-6 -mt-11">
-                    <div class=" bg-white w-fit px-2 py-0 text-yellow-600 text-xs font-f1 rounded border-2 border-blue-800 border-opacity-10 cursor-pointer hover:bg-yellow-400 hover:text-white">Enroll</div>
-    
+                    <div class=" bg-blue w-fit px-2 py-0 text-blue-900 text-xs font-f1 rounded-full border-2 border-blue-800 border-opacity-10 cursor-pointer hover:bg-blue-800 hover:text-white transition duration-150">Enroll</div>
                 </div>
                 <img src="/jpg/academics_01.jpg" alt="caro_1" class="object-cover h-full w-full ">
                 <div class="absolute top-0 hidden sm:flex bg-blue-900 bg-opacity-20 h-full w-full cursor-pointer hover:bg-opacity-0 transition duration-150"></div>
@@ -82,20 +81,20 @@
 
         </div>
 
-        <div class="h-[450px] bg-blue-50 relative shadow-xl" style="width:36%">
-            <div class="flex py-4 px-4 space-x-1 border-t-4 border-red-500">
+        <div class="h-[450px] bg-[#8083FF] relative shadow-xl" style="width:36%">
+            <div class="flex py-4 px-4 space-x-1 border-t-4 border-white">
                 <div class="w-fit mx-auto flex space-x-1">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-red-500" viewBox="0 0 20 20" fill="currentColor">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-pink-500" viewBox="0 0 20 20" fill="currentColor">
                         <path fill-rule="evenodd" d="M10.496 2.132a1 1 0 00-.992 0l-7 4A1 1 0 003 8v7a1 1 0 100 2h14a1 1 0 100-2V8a1 1 0 00.496-1.868l-7-4zM6 9a1 1 0 00-1 1v3a1 1 0 102 0v-3a1 1 0 00-1-1zm3 1a1 1 0 012 0v3a1 1 0 11-2 0v-3zm5-1a1 1 0 00-1 1v3a1 1 0 102 0v-3a1 1 0 00-1-1z" clip-rule="evenodd" />
                       </svg>
-                    <p class="font-extrabold text-lg md:text-xl font-serif text-blue-900">Primary</p>
+                    <p class="font-extrabold text-lg md:text-xl font-serif text-white tracking-wide">Primary</p>
                 </div>
 
             </div>
-            <div class="px-4 text-xs mt-4 sm:mt-8 text-stone-700 font font-f1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima a dolor consectetur odit cum.</div>
+            <div class="px-4 text-xs mt-4 sm:mt-8 text-blue-50 font font-f1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima a dolor consectetur odit cum.</div>
             <div class="bg-sky-100 w-full h-52 sm:h-56 border-b-0 border-yellow-300 absolute bottom-0 ">
                 <div class="px-6 justify-end pb-6 -mt-11 flex">
-                    <div class=" bg-white w-fit px-2 py-0 text-red-700 text-xs font-f1 rounded border-2 border-blue-800 border-opacity-10 cursor-pointer hover:bg-red-500 hover:text-white">Enroll</div>
+                    <div class=" bg-indigo-400 w-fit px-3 py-0 text-white text-xs font-f1 rounded-lg border-2 border-blue-800 border-opacity-10 cursor-pointer hover:bg-red-500 hover:text-white transition duration-150">Enroll</div>
                 </div>
                 <img src="/jpg/academics_02.jpg" alt="caro_1" class="object-cover h-full w-full ">
                 <div class="absolute top-0 hidden sm:flex bg-blue-900 bg-opacity-20 h-full w-full  cursor-pointer hover:bg-opacity-0 transition duration-150"></div>
@@ -103,7 +102,7 @@
             
 
         </div>
-        <div class="h-96 rounded bg-white mt-8 shadow-lg relative" style="width:32%">
+        <div class="h-96 rounded bg-blue-50 mt-8 shadow-lg relative" style="width:32%">
             <div class="flex pt-4 pb-0 sm:pb-4 px-4 space-x-1 border-t-4 border-indigo-900">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 fill-current text-indigo-700" viewBox="0 0 20 20" >
                     <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z" />
@@ -114,8 +113,7 @@
             <!-- <div class="px-6 absolute bottom-4 font-bold font-serif text-xs text-blue-900 cursor-pointer hover:text-gray-700">Nursery -></div> -->
             <div class="bg-sky-100 w-full h-44 sm:h-48 border-b-0 border-yellow-300 absolute bottom-0 ">
                 <div class="px-8 flex justify-end pb-6 -mt-11">
-                    <div class=" bg-white w-fit px-2 py-0 text-blue-900 text-xs font-f1 rounded border-2 border-blue-800 border-opacity-10 cursor-pointer hover:bg-blue-800 hover:text-white">Enroll</div>
-    
+                    <div class=" bg-blue w-fit px-2 py-0 text-blue-900 text-xs font-f1 rounded-full border-2 border-blue-800 border-opacity-10 cursor-pointer hover:bg-blue-800 hover:text-white transition duration-150">Enroll</div>
                 </div>
                 <img src="/jpg/academics_03.jpg" alt="caro_1" class="object-cover h-full w-full ">
                 <div class="absolute top-0 hidden sm:flex bg-blue-900 bg-opacity-20 h-full w-full cursor-pointer hover:bg-opacity-0 transition duration-150"></div>
