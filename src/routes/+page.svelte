@@ -22,8 +22,20 @@
             </SplideSlide>
 
         </Splide>
+        <div class="absolute left-0 top-0 w-full h-[480px] pane">
+            <div class="relative w-full h-full ml-8 xl:ml-32">
+                <div class="flex h-full items-center w-fit absolute bottom-0 ">
+                    <img class = "image h-32 xl:h-40 opacity-90 w-fit mx-auto" src="/png/NIS_6.png" alt="nithalos international school logo">
+                    <div class="text-blue-100 b bg-opacity-40 mb-4">
+                        <div class="w-fit mx-auto font-f1  text-3xl bg-opacity-80 px-1">Nithalos International School</div> 
+                        <div class="w-fit  font-f1 text-lg px-1">Nursery, Primary & Secondary School</div>
+                        <div class="w-fit  font-f1 text-sm px-1">78 Obiwali Rd, Rumuigbo 500272, Port Harcourt</div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <div class="absolute hidden sm:flex sm:flex-col bottom-8 right-0 px-2 z-50">
+        <!-- <div class="absolute hidden sm:flex sm:flex-col bottom-8 right-0 px-2 z-50">
             <div class="flex flex-col w-full">
                 <img class = "image h-44 opacity-90 w-fit mx-auto" src="/png/NIS_6.png" alt="nithalos international school logo">
                 <div class="text-yellow-700 b bg-opacity-40 mb-4">
@@ -36,7 +48,7 @@
                 <div class="h-28 w-96"></div>
                 <div class="h-16 w-16"></div>
             </div>
-        </div>
+        </div> -->
     </div>
     <div class="flex w-full">
         <div class="h-1 w-1/3 bg-red-500"></div>
@@ -221,6 +233,12 @@ background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox=
 .Academics {
         background-color: #ffffff;
 background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%233d81f6' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+.pane{
+    background: rgb(16,62,140);
+background: linear-gradient(49deg, rgba(16,62,140,0.8267900910364145) 17%, rgba(17,61,152,0.8071822478991597) 29%, rgba(20,57,198,0.4850533963585434) 62%, rgba(23,52,255,0) 87%);
+
 }
 
 /* .font-f1{
