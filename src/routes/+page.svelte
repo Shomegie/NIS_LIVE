@@ -23,10 +23,10 @@
 
         </Splide>
         <div class="absolute left-0 top-0 w-full h-[480px] pane">
-            <div class="relative w-full h-full ml-8 xl:ml-44">
+            <div class="relative h-full ml-8 xl:ml-44">
                 <div class="flex h-full items-center w-fit absolute bottom-0 ">
-                    <img class = "image h-32 xl:h-40 opacity-80 w-fit mx-auto" src="/png/NIS_6.png" alt="nithalos international school logo">
-                    <div class="text-blue-100 b bg-opacity-40 mb-4 pt-8">
+                    <img class = "hidden image h-32 xl:h-40 opacity-80 w-fit mx-auto" src="/png/NIS_6.png" alt="nithalos international school logo">
+                    <div class="text-blue-100 b bg-opacity-40 mb-4 pt-8 w-[280px] md:w-[400px] lg:w-full">
                         <div class="w-fit mx-auto font-f1  text-3xl bg-opacity-80 px-1">Nithalos International School</div> 
                         <div class="w-fit  font-f1 text-lg px-1">Nursery, Primary & Secondary School</div>
                         <div class="w-fit  font-f1 text-sm px-1">78 Obiwali Rd, Rumuigbo 500272, Port Harcourt</div>
@@ -143,7 +143,7 @@
 
 <section class="hidden md:block">
 
-    <div class="w-full h-32 bg-emerald-400"></div>
+    <div class="w-full h-32 bg-emerald-600"></div>
     <!-- <div class="flex w-full">
         <div class="h-1 w-1/3 bg-stone-500"></div>
         <div class="h-1 w-1/3 bg-blue-500"></div>
