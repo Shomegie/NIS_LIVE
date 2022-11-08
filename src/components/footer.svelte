@@ -8,7 +8,7 @@
     <div class="h-1 w-full bg-gray-500"></div>
     <div class="h-1 w-full bg-blue-900"></div>
     <div class="texture w-full pt-8  relative">
-        <div class="w-5/6 mx-auto hidden lg:flex flex-col px-4">
+        <div class="w-5/6 mx-auto hidden md:flex flex-col px-4">
             <div class="flex w-full">
                 <div class="space-y-2 w-2/3">
                     <p class="text-xs {tx1}">Address: <br>Lorem ipsum dolor sit amet consectetur.</p>

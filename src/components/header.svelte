@@ -6,7 +6,7 @@
 <section class="texture">
     <div class="desktop bg-indigo-900 bg-opacity-0 ">
         <div class="grid grid-cols-1 ">
-            <div class="h-6 w-full bg-blue-500 text-xs text-red-100 px-8 py-1 cursor-pointer">
+            <div class="h-6 w-full bg-blue-500 text-xs text-red-100 md:px-8 px-2 py-1 cursor-pointer">
                 <p class="underline">Get the latest update and NIS's response to COVID-19</p>
             </div>
             <div class="h-12 flex justify-center items-center px-8 relative">
