@@ -1,5 +1,5 @@
 <script>
-    import { Splide, SplideSlide } from '@splidejs/svelte-splide';
+    import { Splide, SplideSlide, SplideTrack } from '@splidejs/svelte-splide';
     import '@splidejs/splide/dist/css/themes/splide-default.min.css';
 
     let images = `object-contain`
@@ -13,13 +13,39 @@
 
     <div class="h-[560px] bg-indigo-900 bg-opacity-0 w-full relative">
 
-        <Splide class="w-full"  options={ { rewind: true } } aria-label="My Favorite Images">
-            <SplideSlide>
-                <div class="h-[480px] w-full bg-teal-500 relative">
-                    <img src="/jpg/slide_01.jpg" alt="caro_1" class="object-cover h-full w-full ">
-                    
-                </div>
-            </SplideSlide>
+        <Splide hasTrack={false} class="w-full"  options={ { rewind: true, autoplay: true, speed:1800, rewindSpeed:5000, interval:10000 } } aria-label="Nithalos International School 2022">
+            <SplideTrack >
+                <SplideSlide>
+                    <div class="h-[480px] w-full bg-teal-500 relative">
+                        <img src="/jpg/slide_05.jpg" alt="Nithalos International School 5" class="object-cover h-full w-full ">
+                        
+                    </div>
+                </SplideSlide>
+                <SplideSlide>
+                    <div class="h-[480px] w-full bg-teal-500 relative">
+                        <img src="/jpg/slide_01.jpg" alt="Nithalos International School 1" class="object-cover h-full w-full ">
+                        
+                    </div>
+                </SplideSlide>
+                <SplideSlide>
+                    <div class="h-[480px] w-full bg-teal-500 relative">
+                        <img src="/jpg/slide_02.jpg" alt="Nithalos International School 2" class="object-cover h-full w-full ">
+                        
+                    </div>
+                </SplideSlide>
+                <SplideSlide>
+                    <div class="h-[480px] w-full bg-teal-500 relative">
+                        <img src="/jpg/slide_03.jpg" alt="Nithalos International School 3" class="object-cover h-full w-full ">
+                        
+                    </div>
+                </SplideSlide>
+                <SplideSlide>
+                    <div class="h-[480px] w-full bg-teal-500 relative">
+                        <img src="/jpg/slide_04.jpg" alt="Nithalos International School 4" class="object-cover h-full w-full ">
+                        
+                    </div>
+                </SplideSlide>
+            </SplideTrack>
 
         </Splide>
         <div class="absolute left-0 top-0 w-full h-[480px] pane">
@@ -94,7 +120,7 @@
                 </div>
             </div>
             <div id="text-stone-700" class="px-4 pt-2 lg:px-6 text-xs text-blue-50 space-y-2">
-                <p class="text-center age font-bold">Age: 5yo to 10yo</p>
+                <p class="text-center age font-bold">Age: 5 years to 10 years</p>
                 <p class=" pt-2 lg:pt-3 justify tracking-wide font-extralight ">Provision of international standards of education and practices in order to further core elements of learning in pupils.</p>
             </div>
 
@@ -117,7 +143,7 @@
                 <p class="font-extrabold text-base sm:text-lg font-serif tracking-widest text-blue-900">Secondary</p>
             </div>
             <div id="text-stone-700" class="px-4 lg:px-6 text-xs text-blue-900 space-y-2">
-                <p class="text-center age font-bold">Age: 10yo +</p>
+                <p class="text-center age font-bold">Age: 10 years +</p>
                 <p class="lg:pt-2 justify age font-light tracking-wide ">Advanced curriculum and guidance in preperation for aceademic success in future tetiary enrollments.</p>
             </div>
             <!-- <div class="px-6 absolute bottom-4 font-bold font-serif text-xs text-blue-900 cursor-pointer hover:text-gray-700">Nursery -></div> -->
