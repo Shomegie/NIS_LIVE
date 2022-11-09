@@ -88,14 +88,14 @@
     <div class="w-full px-2 sm:px-8 pt-10 pb-6 sm:pb-10  mt-0 space-x-0 sm:space-x-6 xl:w-4/6 mx-auto flex">
 
         <div class="nursery h-96  bg-blue-50 mt-8 relative shadow-lg border-t-4 border-yellow-400" style="width:32%">
-            <div class="flex pt-4 pb-0 sm:pb-0 px-5 space-x-1 w-fit mx-auto">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 stroke-current text-yellow-500" fill="none"  viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <div class="flex pt-4 pb-0 sm:pb-0 px-0 space-x-0 md:space-x-1 w-fit mx-auto">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 md:h-8 w-8 stroke-current text-yellow-500" fill="none"  viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
                 </svg>
-                <p class="font-extrabold text-lg font-serif text-blue-900 tracking-widest">Nursery</p>
+                <p class="font-extrabold text-sm md:text-lg font-serif text-blue-900 md:tracking-widest">Nursery</p>
             </div>
-            <div id="text-stone-700" class="px-4 lg:px-6 text-xs text-blue-900 space-y-2">
-                <p class="text-center age font-bold">Age: 18 months to 24 months</p>
+            <div id="text-stone-700" class="px-2 md:px-4 lg:px-6 text-xs text-blue-900  space-y-2">
+                <p class="text-center age font-bold">Age: 1 to 2 years</p>
                 <p class="lg:pt-2 justify age font-light tracking-wide ">Pre-nursery & nursery curriculum focused on nuturing and building foundational learning values and behavior.</p>
             </div>
             <!-- <div class="px-6 absolute bottom-4 font-bold font-serif text-xs text-blue-900 cursor-pointer hover:text-gray-700">Nursery -></div> -->
@@ -120,8 +120,8 @@
                 </div>
             </div>
             <div id="text-stone-700" class="px-4 pt-2 lg:px-6 text-xs text-blue-50 space-y-2">
-                <p class="text-center age font-bold">Age: 5 years to 10 years</p>
-                <p class=" pt-2 lg:pt-3 justify tracking-wide font-extralight ">Provision of international standards of education and practices in order to further core elements of learning in pupils.</p>
+                <p class="text-center age font-bold">Age: 5 to 10 years</p>
+                <p class=" pt-3 lg:pt-5 justify tracking-wide age font-light ">Provision of international standards of education and practices in order to further core elements of learning in pupils.</p>
             </div>
 
   
@@ -136,13 +136,13 @@
 
         </div>
         <div class="secondary h-96 border-t-4 border-indigo-900 bg-blue-50 mt-8 shadow-lg relative" style="width:32%">
-            <div class="flex pt-4 pb-0 px-4 space-x-1 w-fit mx-auto">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 fill-current text-indigo-700" viewBox="0 0 20 20" >
+            <div class="flex pt-4 pb-0 px-0 md:space-x-1 w-fit mx-auto">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 md:h-7 w-7 fill-current text-indigo-700" viewBox="0 0 20 20" >
                     <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z" />
                 </svg>
-                <p class="font-extrabold text-base sm:text-lg font-serif tracking-widest text-blue-900">Secondary</p>
+                <p class="font-extrabold text-base  md:text-lg font-serif md:tracking-widest text-blue-900">Secondary</p>
             </div>
-            <div id="text-stone-700" class="px-4 lg:px-6 text-xs text-blue-900 space-y-2">
+            <div id="text-stone-700" class="px-2 md:px-4 lg:px-6 text-xs text-blue-900 space-y-2">
                 <p class="text-center age font-bold">Age: 10 years +</p>
                 <p class="lg:pt-2 justify age font-light tracking-wide ">Advanced curriculum and guidance in preperation for aceademic success in future tetiary enrollments.</p>
             </div>
